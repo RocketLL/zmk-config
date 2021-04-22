@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: rocketll
+      url-base: https://github.com/rocketll
+  projects:
+    - name: zmk
+      remote: rocketll
+      revision: add-shield-breeze
+      import: app/west.yml
+  self:
+    path: config
